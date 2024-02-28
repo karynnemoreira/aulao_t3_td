@@ -1,0 +1,26 @@
+footer{
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contador, .cronometro{
+    width: 40%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid black;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+button{
+    width: 15vw;
+    height: 7vh;
+    font-size: 1.5rem;
+}
